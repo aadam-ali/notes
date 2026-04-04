@@ -1,0 +1,13 @@
+services:
+  quartz:
+    image: aadam-ali/notes
+    build:
+      dockerfile: Dockerfile
+      context: .
+      target: builder
+    volumes:
+      - ./notes:/quartz/content:ro
+      - ./quartz/quartz.config.ts:/quartz/quartz.config.ts:ro
+      - ./quartz/quartz.layout.ts:/quartz/quartz.layout.ts:ro
+    ports:
+      - 4321:8080
