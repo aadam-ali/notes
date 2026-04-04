@@ -1,0 +1,7 @@
+[tasks.dev]
+description = "Run Local Development Server"
+run = "docker compose up --detach"
+
+[tasks.build]
+description = "Build Site"
+run = "docker build --output . ."
