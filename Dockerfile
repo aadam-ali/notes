@@ -16,8 +16,8 @@ COPY notes /quartz/content
 
 RUN npx quartz build
 
-ENTRYPOINT ["npx", "quartz", "build", "--serve", "--port", "8080"]
-
+ENTRYPOINT [ "npx", "quartz", "build", "--serve" ]
+CMD [ "--port", "8080" ]
 
 # Used to export built site to ./public
 FROM scratch AS export
