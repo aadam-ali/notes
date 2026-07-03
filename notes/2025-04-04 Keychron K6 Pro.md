@@ -1,6 +1,7 @@
 ---
 title: Keychron K6 Pro
 date: 2026-04-04
+tags: [keyboard]
 ---
 | Layer | Mode  | Description                                              |
 | ----- | ----- | -------------------------------------------------------- |

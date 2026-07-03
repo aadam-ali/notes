@@ -1,6 +1,7 @@
 ---
 title: Networking commands
 date: 2026-05-15
+tags: [networking]
 ---
 ## Check connectivity to host
 

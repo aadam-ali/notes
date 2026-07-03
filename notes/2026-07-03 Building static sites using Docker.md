@@ -1,6 +1,7 @@
 ---
 title: Building static sites using Docker
 date: 2026-07-03
+tags: [docker]
 ---
 Most static site generators (SSG) provide a live development server for
 local development and a separate build command to generate a publishable
