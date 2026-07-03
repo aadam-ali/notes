@@ -1,6 +1,7 @@
 ---
 title: Invalidating Docker build cache
 date: 2026-04-10
+tags: [docker]
 ---
 The Docker build cache can be invaildated using cache busting, in the
 following example an `ARG` is used but the `--no-cache` can also be

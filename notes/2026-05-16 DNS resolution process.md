@@ -1,6 +1,7 @@
 ---
 title: DNS resolution process
 date: 2026-05-16
+tags: [networking]
 ---
 ## Components
 
@@ -41,6 +42,5 @@ are named in the `NS` record for a domain.
    nameservers for delegated subdomains)
 
 Related:
-
 * <https://www.rfc-editor.org/rfc/rfc1123#section-6.1.3.1>
 * <https://datatracker.ietf.org/doc/html/rfc9499>

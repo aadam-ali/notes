@@ -1,6 +1,7 @@
 ---
 title: Using VIA on Linux
 date: 2026-04-04
+tags: [keyboard]
 ---
 Currently Firefox doesn't support WebHID (an API to allow browsers to
 communicate with HID devices).
@@ -34,4 +35,4 @@ or disconnect the device the permissions change will undo itself.
 Happy tinkering!
 
 Related:
-- [2025-04-04 Keychron K6 Pro](2025-04-04%20Keychron%20K6%20Pro.md)
+* [2025-04-04 Keychron K6 Pro](2025-04-04%20Keychron%20K6%20Pro.md)

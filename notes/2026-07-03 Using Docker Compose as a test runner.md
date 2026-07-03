@@ -1,6 +1,7 @@
 ---
 title: Using Docker Compose as a test runner
 date: 2026-07-03
+tags: [docker]
 ---
 Recently, I've been looking at writing tests to test the configuration
 of open source software components to ensure that they behaves as

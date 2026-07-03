@@ -41,6 +41,6 @@ change without generating and running the migrations and the updated
 value will be visible in the admin console.
 
 Related:
-- <https://code.djangoproject.com/ticket/21498>
-- <https://docs.djangoproject.com/en/5.2/topics/migrations/#squashing-migrations>
-- <https://stackoverflow.com/questions/26503826/why-does-django-make-migrations-for-help-text-and-verbose-name-changes>
+* <https://code.djangoproject.com/ticket/21498>
+* <https://docs.djangoproject.com/en/5.2/topics/migrations/#squashing-migrations>
+* <https://stackoverflow.com/questions/26503826/why-does-django-make-migrations-for-help-text-and-verbose-name-changes>

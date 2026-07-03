@@ -1,6 +1,7 @@
 ---
 title: Allow key repeat on VSCode (MacOS)
 date: 2026-04-04
+tags: [keyboard]
 ---
 After installing the Vim plugin for VSCode on MacOS, I noticed that key
 presses weren't repeating. Thus requiring me to repetitively press a key
@@ -24,5 +25,4 @@ To re-enable Apple press and hold for VSCode:
 true`
 
 Related:
-
-- <https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode>
+* <https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode>
