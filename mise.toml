@@ -1,6 +1,10 @@
-[tasks.dev]
-description = "Run Local Development Server"
+[tasks.start]
+description = "Start Local Development Server"
 run = "docker compose up --detach"
+
+[tasks.stop]
+description = "Stop Local Development Server"
+run = "docker compose down"
 
 [tasks.build]
 description = "Build Site"
