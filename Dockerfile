@@ -1,4 +1,4 @@
-FROM node:25.9.0-trixie-slim@sha256:76d00a5baec72c6ade09b6254f35ef036087871f883d941bc00b2efbf4ab8a92 AS builder
+FROM node:26.4.0-trixie-slim@sha256:a1d9d671994fc2d26e297ac56b4b1522a8bc7fa71c43b14cd1b1fe6c5116f7dc AS builder
 
 RUN apt-get update -y && apt-get upgrade -y  && apt-get install --no-install-recommends -y ca-certificates=20250419 git=1:2.47.3-0+deb13u1 && apt-get clean && rm -rf /var/lib/apt/lists/*
 
