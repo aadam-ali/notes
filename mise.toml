@@ -1,6 +1,6 @@
 [tasks.start]
 description = "Start Local Development Server"
-run = "docker compose up --detach"
+run = "docker compose up --build --detach"
 
 [tasks.stop]
 description = "Stop Local Development Server"
