@@ -7,7 +7,6 @@ services:
       target: builder
     volumes:
       - ./notes:/quartz/content:ro
-      - ./quartz/quartz.config.ts:/quartz/quartz.config.ts:ro
-      - ./quartz/quartz.layout.ts:/quartz/quartz.layout.ts:ro
+      - ./quartz/quartz.config.yaml:/quartz/quartz.config.yaml:ro
     ports:
       - 4321:8080
