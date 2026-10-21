@@ -122,6 +122,8 @@ plugins:
 
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      folderDefaultState: collapsed
     layout:
       position: left
       priority: 50
@@ -152,24 +154,20 @@ plugins:
     layout:
       position: beforeBody
       priority: 10
+      condition: not-index
 
   - source: "@quartz-community/content-meta"
     enabled: true
     layout:
       position: beforeBody
       priority: 20
+      condition: not-index
 
   - source: "@quartz-community/tag-list"
     enabled: true
     layout:
       position: beforeBody
       priority: 30
-
-  - source: "@quartz-community/page-title"
-    enabled: true
-    layout:
-      position: left
-      priority: 10
 
   - source: "@quartz-community/darkmode"
     enabled: true
