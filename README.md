@@ -14,7 +14,7 @@ Run a quartz development server:
 
 > [!NOTE]
 > Due to how Docker handles bind mounts and how many editors modify
-> files, changes to the `quartz/quartz.*.ts` will likely require a
+> files, changes to the files in`quartz/` will likely require a
 > restart of the container
 
 ```bash
