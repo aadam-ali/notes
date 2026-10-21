@@ -8,5 +8,7 @@ services:
     volumes:
       - ./notes:/quartz/content:ro
       - ./quartz/quartz.config.yaml:/quartz/quartz.config.yaml:ro
+      - ./quartz/static/icon.png:/quartz/quartz/static/icon.png:ro
     ports:
       - 4321:8080
+      - 3001:3001

@@ -10,7 +10,8 @@ WORKDIR /quartz
 
 RUN npm install
 
-COPY quartz/quartz.config.yaml quartz.config.yaml
+COPY quartz/quartz.config.yaml /quartz/quartz.config.yaml
+COPY quartz/static/icon.png /quartz/quartz/static/icon.png
 COPY notes /quartz/content
 
 RUN npx quartz plugin install --from-config && npx quartz build
